@@ -1,0 +1,27 @@
+site_name: WSO2 Identity Server Documentation
+
+theme: 'material'
+theme:
+    name: material
+    custom_dir: 'theme/material'
+
+extra_css: 
+    - 'css/custom.css'
+    # - css/application.572ca0f0.css
+
+nav:
+    - Home : 'index.md'
+    - Getting Started : 'GettingStarted.md'
+    - Getting Started : 
+      - Introduction : 'GettingStarted/Overview.md'
+      - About this release: 'GettingStarted/About_this_Release.md'
+      - Quick Start: 'GettingStarted/QSG.md'
+    - Developer Guide : 'Developer_Guide.md'
+    - Developer Guide : 
+      - Introduction : 'Developer_Guide/Overview.md'
+      - Quick Start : 'Developer_Guide/QSG.md'
+    - Using_WSO2_Update_Manager : 'Using_WSO2_Update_Manager.md'
+    - WSO2_Updates : 'WSO2_Updates.md'
+    - WUM_Commands_Guide : 'WUM_Commands_Guide.md'
+
+

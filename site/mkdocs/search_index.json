@@ -1,0 +1,159 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Index", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#index", 
+            "text": "", 
+            "title": "Index"
+        }, 
+        {
+            "location": "/GettingStarted/", 
+            "text": "GettingStarted PAGE\n\n\nWhat is new in this release\n\n\nWSO2 Identity Server (WSO2 IS) version \n5.7.0\n is the successor of\nversion\u00a0\n5.6.0,\n and contains the following new features and\nenhancements:\n\n\n\n\n\n\nAdaptive\n    authentication\n\n    support that allows:\n\n\n\n\n\n\nRole based\n    authentication\n\n\n\n\n\n\nUser-age-based\n    authentication\n\n\n\n\n\n\nTenant-based\n    authentication\n\n\n\n\n\n\nUser store-based\n    authentication\n\n\n\n\n\n\nIP-based\n    authentication\n\n\n\n\n\n\nNew-device-based\n    authentication\n\n\n\n\n\n\nACR-based\n    authentication\n\n\n\n\n\n\nRisk-based\n    authentication\n\n\n\n\n\n\n\n\n\n\nUser managed access\n    (UMA)\n that\n    allows resource owners to have control over client access to\n    protected resources.\n\n\n\n\nSupport to integrate with Office 365. For detailed information, see\n    \nIntegrating Office365 with WSO2 Identity\n    Server\n.\n\n\nSAML 2.0 artifact\n    binding\n\u00a0support\n    for SAML service provider.\n\n\nCarbon Health Check API to \nmonitor server\n    health\n.\n\n\nSupport to select \nhow you want to prompt for credentials when you\n    configure JIT provisioning for an Identity\n    Provider\n.\n\n\n\n\nSupport to \ncustomize Just-In-Time provisioning user\n    interfaces\n.\n\n\n\n\n\n\nSupport to \nconfigure consent purposes for JIT\n    provisioning\n.\n\n\n\n\n\n\nSupport to \nconfigure consent purposes for\n    self-registration\n.\n\n\n\n\n\n\nSupport to \nupload multiple certificates for an identity\n    provider\n.\n\n\n\n\nLogical operators for SCIM2\n    filters\n.\u00a0\n\n\n\n\nWhat has changed in this release\n\n\nThe Analytics distribution of previous WSO2 Identity Server releases was\nbased on WSO2 Data Analytics Server (WSO2 DAS). With\u00a0WSO2 Identity\nServer 5.7.0, the Analytics distribution is based on WSO2 Stream\nProcessor (WSO2 SP). For information on how to work with WSO2 Identity\nServer Analytics, see \nWSO2 Identity Server\nAnalytics\n.\n\n\nWUM updates\n\n\nThis section lists new features and improvements that are introduced to\nWSO2 IS 5.7.0 via WUM updates.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew feature or improvement\n\n\nThe date of the WUM update\n\n\n\n\n\n\n\n\n\n\nSupport to enable reCaptcha during the following account recovery scenarios:\n\n\n\n\nAt the time of \nuser name recovery\n.\n\n\nAt the time of \npassword recovery using notifications\n.\n\n\nAt the time of \npassword recovery using challenge questions\n.\n\n\n\n\nEffective from the 2nd of October 2018\n\n\n\n\n\n\n\n\n\nCompatible versions\n\n\nFor information on the Carbon platform version and Carbon Kernel version\nof WSO2 IS 5.7.0, see the\u00a0\nRelease\nMatrix\n.\n\n\nAll WSO2 products that are based on a specific Carbon Kernel version are\nexpected to be compatible with each other. If you come across any\ncompatibility issue,\u00a0\ncontact team WSO2\n.\n\n\nFixed issues\n\n\nFor a complete list of improvements and bug fixes available with this\nrelease, see\u00a0\nWSO2 IS 5.7.0 - Fixed\nIssues\n.\n\n\nKnown issues\n\n\n\n\nFor a complete list of open issues related to the WSO2 Identity\n    Server runtime, see \nWSO2 IS Runtime - Open\n    Issues\n.\n\n\nFor a complete list of open issues related to the WSO2 Identity\n    Server analytics, see \nWSO2 IS Analytics - Open\n    Issues", 
+            "title": "GettingStarted"
+        }, 
+        {
+            "location": "/GettingStarted/#gettingstarted-page", 
+            "text": "", 
+            "title": "GettingStarted PAGE"
+        }, 
+        {
+            "location": "/GettingStarted/#what-is-new-in-this-release", 
+            "text": "WSO2 Identity Server (WSO2 IS) version  5.7.0  is the successor of\nversion\u00a0 5.6.0,  and contains the following new features and\nenhancements:    Adaptive\n    authentication \n    support that allows:    Role based\n    authentication    User-age-based\n    authentication    Tenant-based\n    authentication    User store-based\n    authentication    IP-based\n    authentication    New-device-based\n    authentication    ACR-based\n    authentication    Risk-based\n    authentication      User managed access\n    (UMA)  that\n    allows resource owners to have control over client access to\n    protected resources.   Support to integrate with Office 365. For detailed information, see\n     Integrating Office365 with WSO2 Identity\n    Server .  SAML 2.0 artifact\n    binding \u00a0support\n    for SAML service provider.  Carbon Health Check API to  monitor server\n    health .  Support to select  how you want to prompt for credentials when you\n    configure JIT provisioning for an Identity\n    Provider .   Support to  customize Just-In-Time provisioning user\n    interfaces .    Support to  configure consent purposes for JIT\n    provisioning .    Support to  configure consent purposes for\n    self-registration .    Support to  upload multiple certificates for an identity\n    provider .   Logical operators for SCIM2\n    filters .", 
+            "title": "What is new in this release"
+        }, 
+        {
+            "location": "/GettingStarted/#what-has-changed-in-this-release", 
+            "text": "The Analytics distribution of previous WSO2 Identity Server releases was\nbased on WSO2 Data Analytics Server (WSO2 DAS). With\u00a0WSO2 Identity\nServer 5.7.0, the Analytics distribution is based on WSO2 Stream\nProcessor (WSO2 SP). For information on how to work with WSO2 Identity\nServer Analytics, see  WSO2 Identity Server\nAnalytics .", 
+            "title": "What has changed in this release"
+        }, 
+        {
+            "location": "/GettingStarted/#wum-updates", 
+            "text": "This section lists new features and improvements that are introduced to\nWSO2 IS 5.7.0 via WUM updates.         New feature or improvement  The date of the WUM update      Support to enable reCaptcha during the following account recovery scenarios:   At the time of  user name recovery .  At the time of  password recovery using notifications .  At the time of  password recovery using challenge questions .   Effective from the 2nd of October 2018", 
+            "title": "WUM updates"
+        }, 
+        {
+            "location": "/GettingStarted/#compatible-versions", 
+            "text": "For information on the Carbon platform version and Carbon Kernel version\nof WSO2 IS 5.7.0, see the\u00a0 Release\nMatrix .  All WSO2 products that are based on a specific Carbon Kernel version are\nexpected to be compatible with each other. If you come across any\ncompatibility issue,\u00a0 contact team WSO2 .", 
+            "title": "Compatible versions"
+        }, 
+        {
+            "location": "/GettingStarted/#fixed-issues", 
+            "text": "For a complete list of improvements and bug fixes available with this\nrelease, see\u00a0 WSO2 IS 5.7.0 - Fixed\nIssues .", 
+            "title": "Fixed issues"
+        }, 
+        {
+            "location": "/GettingStarted/#known-issues", 
+            "text": "For a complete list of open issues related to the WSO2 Identity\n    Server runtime, see  WSO2 IS Runtime - Open\n    Issues .  For a complete list of open issues related to the WSO2 Identity\n    Server analytics, see  WSO2 IS Analytics - Open\n    Issues", 
+            "title": "Known issues"
+        }, 
+        {
+            "location": "/test/", 
+            "text": "Test", 
+            "title": "Test"
+        }, 
+        {
+            "location": "/test/#test", 
+            "text": "", 
+            "title": "Test"
+        }, 
+        {
+            "location": "/GettingStarted/About_this_Release/", 
+            "text": "About this Release\n\n\nWhat is new in this release\n\n\nWSO2 Identity Server (WSO2 IS) version \n5.7.0\n is the successor of\nversion\u00a0\n5.6.0,\n and contains the following new features and\nenhancements:\n\n\n\n\n\n\nAdaptive\n    authentication\n\n    support that allows:\n\n\n\n\n\n\nRole based\n    authentication\n\n\n\n\n\n\nUser-age-based\n    authentication\n\n\n\n\n\n\nTenant-based\n    authentication\n\n\n\n\n\n\nUser store-based\n    authentication\n\n\n\n\n\n\nIP-based\n    authentication\n\n\n\n\n\n\nNew-device-based\n    authentication\n\n\n\n\n\n\nACR-based\n    authentication\n\n\n\n\n\n\nRisk-based\n    authentication\n\n\n\n\n\n\n\n\n\n\nUser managed access\n    (UMA)\n that\n    allows resource owners to have control over client access to\n    protected resources.\n\n\n\n\nSupport to integrate with Office 365. For detailed information, see\n    \nIntegrating Office365 with WSO2 Identity\n    Server\n.\n\n\nSAML 2.0 artifact\n    binding\n\u00a0support\n    for SAML service provider.\n\n\nCarbon Health Check API to \nmonitor server\n    health\n.\n\n\nSupport to select \nhow you want to prompt for credentials when you\n    configure JIT provisioning for an Identity\n    Provider\n.\n\n\n\n\nSupport to \ncustomize Just-In-Time provisioning user\n    interfaces\n.\n\n\n\n\n\n\nSupport to \nconfigure consent purposes for JIT\n    provisioning\n.\n\n\n\n\n\n\nSupport to \nconfigure consent purposes for\n    self-registration\n.\n\n\n\n\n\n\nSupport to \nupload multiple certificates for an identity\n    provider\n.\n\n\n\n\nLogical operators for SCIM2\n    filters\n.\u00a0\n\n\n\n\nWhat has changed in this release\n\n\nThe Analytics distribution of previous WSO2 Identity Server releases was\nbased on WSO2 Data Analytics Server (WSO2 DAS). With\u00a0WSO2 Identity\nServer 5.7.0, the Analytics distribution is based on WSO2 Stream\nProcessor (WSO2 SP). For information on how to work with WSO2 Identity\nServer Analytics, see \nWSO2 Identity Server\nAnalytics\n.\n\n\nWUM updates\n\n\nThis section lists new features and improvements that are introduced to\nWSO2 IS 5.7.0 via WUM updates.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew feature or improvement\n\n\nThe date of the WUM update\n\n\n\n\n\n\n\n\n\n\nSupport to enable reCaptcha during the following account recovery scenarios:\n\n\n\n\nAt the time of \nuser name recovery\n.\n\n\nAt the time of \npassword recovery using notifications\n.\n\n\nAt the time of \npassword recovery using challenge questions\n.\n\n\n\n\nEffective from the 2nd of October 2018\n\n\n\n\n\n\n\n\n\nCompatible versions\n\n\nFor information on the Carbon platform version and Carbon Kernel version\nof WSO2 IS 5.7.0, see the\u00a0\nRelease\nMatrix\n.\n\n\nAll WSO2 products that are based on a specific Carbon Kernel version are\nexpected to be compatible with each other. If you come across any\ncompatibility issue,\u00a0\ncontact team WSO2\n.\n\n\nFixed issues\n\n\nFor a complete list of improvements and bug fixes available with this\nrelease, see\u00a0\nWSO2 IS 5.7.0 - Fixed\nIssues\n.\n\n\nKnown issues\n\n\n\n\nFor a complete list of open issues related to the WSO2 Identity\n    Server runtime, see \nWSO2 IS Runtime - Open\n    Issues\n.\n\n\nFor a complete list of open issues related to the WSO2 Identity\n    Server analytics, see \nWSO2 IS Analytics - Open\n    Issues", 
+            "title": "About this Release"
+        }, 
+        {
+            "location": "/GettingStarted/About_this_Release/#about-this-release", 
+            "text": "", 
+            "title": "About this Release"
+        }, 
+        {
+            "location": "/GettingStarted/About_this_Release/#what-is-new-in-this-release", 
+            "text": "WSO2 Identity Server (WSO2 IS) version  5.7.0  is the successor of\nversion\u00a0 5.6.0,  and contains the following new features and\nenhancements:    Adaptive\n    authentication \n    support that allows:    Role based\n    authentication    User-age-based\n    authentication    Tenant-based\n    authentication    User store-based\n    authentication    IP-based\n    authentication    New-device-based\n    authentication    ACR-based\n    authentication    Risk-based\n    authentication      User managed access\n    (UMA)  that\n    allows resource owners to have control over client access to\n    protected resources.   Support to integrate with Office 365. For detailed information, see\n     Integrating Office365 with WSO2 Identity\n    Server .  SAML 2.0 artifact\n    binding \u00a0support\n    for SAML service provider.  Carbon Health Check API to  monitor server\n    health .  Support to select  how you want to prompt for credentials when you\n    configure JIT provisioning for an Identity\n    Provider .   Support to  customize Just-In-Time provisioning user\n    interfaces .    Support to  configure consent purposes for JIT\n    provisioning .    Support to  configure consent purposes for\n    self-registration .    Support to  upload multiple certificates for an identity\n    provider .   Logical operators for SCIM2\n    filters .", 
+            "title": "What is new in this release"
+        }, 
+        {
+            "location": "/GettingStarted/About_this_Release/#what-has-changed-in-this-release", 
+            "text": "The Analytics distribution of previous WSO2 Identity Server releases was\nbased on WSO2 Data Analytics Server (WSO2 DAS). With\u00a0WSO2 Identity\nServer 5.7.0, the Analytics distribution is based on WSO2 Stream\nProcessor (WSO2 SP). For information on how to work with WSO2 Identity\nServer Analytics, see  WSO2 Identity Server\nAnalytics .", 
+            "title": "What has changed in this release"
+        }, 
+        {
+            "location": "/GettingStarted/About_this_Release/#wum-updates", 
+            "text": "This section lists new features and improvements that are introduced to\nWSO2 IS 5.7.0 via WUM updates.         New feature or improvement  The date of the WUM update      Support to enable reCaptcha during the following account recovery scenarios:   At the time of  user name recovery .  At the time of  password recovery using notifications .  At the time of  password recovery using challenge questions .   Effective from the 2nd of October 2018", 
+            "title": "WUM updates"
+        }, 
+        {
+            "location": "/GettingStarted/About_this_Release/#compatible-versions", 
+            "text": "For information on the Carbon platform version and Carbon Kernel version\nof WSO2 IS 5.7.0, see the\u00a0 Release\nMatrix .  All WSO2 products that are based on a specific Carbon Kernel version are\nexpected to be compatible with each other. If you come across any\ncompatibility issue,\u00a0 contact team WSO2 .", 
+            "title": "Compatible versions"
+        }, 
+        {
+            "location": "/GettingStarted/About_this_Release/#fixed-issues", 
+            "text": "For a complete list of improvements and bug fixes available with this\nrelease, see\u00a0 WSO2 IS 5.7.0 - Fixed\nIssues .", 
+            "title": "Fixed issues"
+        }, 
+        {
+            "location": "/GettingStarted/About_this_Release/#known-issues", 
+            "text": "For a complete list of open issues related to the WSO2 Identity\n    Server runtime, see  WSO2 IS Runtime - Open\n    Issues .  For a complete list of open issues related to the WSO2 Identity\n    Server analytics, see  WSO2 IS Analytics - Open\n    Issues", 
+            "title": "Known issues"
+        }, 
+        {
+            "location": "/GettingStarted/Overview/", 
+            "text": "Overview\n\n\nAs an enterprise's applications, services, and API adoptions grow,\nmanaging identities (such as employees, vendors, partners, and\ncustomers) across internal, shared, and SaaS services becomes a\nsignificant challenge. The \nWSO2 Identity\nServer\n is a product that can\nmeet this challenge and also provide options to solve identity problems\nyou may encounter in future.\u00a0\n\n\nWSO2 Identity Server is fully open source and is released under\u00a0\nApache\nSoftware\u00a0License\u00a0Version\n2.0,\n\u00a0one of the most\nbusiness-friendly licenses available today.\u00a0\n\n\nAbout identity in the connected world\n\n\nIn the connected world of today, the modern enterprises have to offer\ntheir numerous customers remote access to sizable amounts of sensitive\nand confidential information, while still maintaining access control and\nstringent information security at all times. Additionally, all of this\nneeds to take place at the bat of an eyelid.\n\n\nA typical connected business of today relies on users who are constantly\non the move and using various applications and devices. These users are\nnow using their own devices for ease of access and prefer to sign in\njust once. Basically, the connected business caters to people who would\nlike to use their Facebook, Google, or LinkedIn credentials to access\nother information on their own devices. Here\u2019s the catch: an\nindividual\u2019s identity needs to be validated across these applications,\nand this needs to take place in a manner that will ensure security as\nwell as speed of access and ease of use.\u00a0\n\n\nIdentity management\n\n\nIdentity management is used to directly influence the security and\nproductivity of an organization. This can enforce consistency in\nsecurity policies across the organization. Identity management is\nparticularly advantageous when complying with rules and regulations\nenforced in some critical domains by governments. This can also be a\nmeans to provide access to resources to outside parties without\ncompromising security. Controlling access to resources increases\norganizational security. A system that uses a proper identity management\nsolution is easier to audit. Additionally, there are automated password\nreset capabilities.\n\n\nAn identity management system would typically have the following.\n\n\n\n\nUser stores and directories\n\n\nAuthentication of users\n\n\nAuthorization of users\n\n\nSingle sign-on\n\n\nProvisioning\n\n\nAccess delegation\n\n\nPassword reset\n\n\nSelf-registration\n\n\nAccount locking\n\n\n\n\nThe Identity Server and the solution it provides\n\n\nWSO2 Identity Server provides secure identity management for enterprise\nweb applications, services, and APIs by managing identity and\nentitlements of the users securely and efficiently.\u00a0The Identity Server\nenables enterprise architects and developers to reduce identity\nprovisioning time, guarantee secure online interactions, and deliver a\nreduced single sign-on environment. The WSO2 Identity Server decreases\nthe identity management and entitlement management administration burden\nby including the role-based access control (RBAC) convention,\nfine-grained policy-based access control, and Single-Sign-On (SSO)\nbridging.\n\n\nThe Identity Server enables you to create, maintain and terminate user\naccounts along with user identities across multiple systems including\nCloud applications.\u00a0When there are multiple applications that\nrequire\u00a0authentication, users should be able to log in at one place\u00a0and\nstill have seamless access to all the other applications.\n\n\nAdditionally, the Identity Server brings about a new and improved\napproach to federation. There is a centralized Identity as a Service\nProvider. It is still an overall n to n relationship. There is a 1 to n\nrelationship from a federation partner to consumer services (where\nmultiple consumer services rely on a single centralized federated\nIdentity Provider for security) and a 1 to n relationship from consumer\nservice to federation partners (where a single consumer service can rely\non multiple Identity providers for security). This model ensures greater\nefficiency.\n\n\nWSO2 Identity Server has the \u2018\nJaggery\n\u2019 user\ninterface for end users. Apart from the \nManagement\nConsole\n,\nan \nend user\nview\n\u00a0is\navailable to manage profiles, to recover accounts and to manage\nauthorized apps.\u00a0The log in and consent pages in the UI can be\ncompletely customized because they run on a separate context as a\nseparate web application. These web applications can even be dropped\ninto a separate application server if required.", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/GettingStarted/Overview/#overview", 
+            "text": "As an enterprise's applications, services, and API adoptions grow,\nmanaging identities (such as employees, vendors, partners, and\ncustomers) across internal, shared, and SaaS services becomes a\nsignificant challenge. The  WSO2 Identity\nServer  is a product that can\nmeet this challenge and also provide options to solve identity problems\nyou may encounter in future.\u00a0  WSO2 Identity Server is fully open source and is released under\u00a0 Apache\nSoftware\u00a0License\u00a0Version\n2.0, \u00a0one of the most\nbusiness-friendly licenses available today.", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/GettingStarted/Overview/#about-identity-in-the-connected-world", 
+            "text": "In the connected world of today, the modern enterprises have to offer\ntheir numerous customers remote access to sizable amounts of sensitive\nand confidential information, while still maintaining access control and\nstringent information security at all times. Additionally, all of this\nneeds to take place at the bat of an eyelid.  A typical connected business of today relies on users who are constantly\non the move and using various applications and devices. These users are\nnow using their own devices for ease of access and prefer to sign in\njust once. Basically, the connected business caters to people who would\nlike to use their Facebook, Google, or LinkedIn credentials to access\nother information on their own devices. Here\u2019s the catch: an\nindividual\u2019s identity needs to be validated across these applications,\nand this needs to take place in a manner that will ensure security as\nwell as speed of access and ease of use.", 
+            "title": "About identity in the connected world"
+        }, 
+        {
+            "location": "/GettingStarted/Overview/#identity-management", 
+            "text": "Identity management is used to directly influence the security and\nproductivity of an organization. This can enforce consistency in\nsecurity policies across the organization. Identity management is\nparticularly advantageous when complying with rules and regulations\nenforced in some critical domains by governments. This can also be a\nmeans to provide access to resources to outside parties without\ncompromising security. Controlling access to resources increases\norganizational security. A system that uses a proper identity management\nsolution is easier to audit. Additionally, there are automated password\nreset capabilities.  An identity management system would typically have the following.   User stores and directories  Authentication of users  Authorization of users  Single sign-on  Provisioning  Access delegation  Password reset  Self-registration  Account locking", 
+            "title": "Identity management"
+        }, 
+        {
+            "location": "/GettingStarted/Overview/#the-identity-server-and-the-solution-it-provides", 
+            "text": "WSO2 Identity Server provides secure identity management for enterprise\nweb applications, services, and APIs by managing identity and\nentitlements of the users securely and efficiently.\u00a0The Identity Server\nenables enterprise architects and developers to reduce identity\nprovisioning time, guarantee secure online interactions, and deliver a\nreduced single sign-on environment. The WSO2 Identity Server decreases\nthe identity management and entitlement management administration burden\nby including the role-based access control (RBAC) convention,\nfine-grained policy-based access control, and Single-Sign-On (SSO)\nbridging.  The Identity Server enables you to create, maintain and terminate user\naccounts along with user identities across multiple systems including\nCloud applications.\u00a0When there are multiple applications that\nrequire\u00a0authentication, users should be able to log in at one place\u00a0and\nstill have seamless access to all the other applications.  Additionally, the Identity Server brings about a new and improved\napproach to federation. There is a centralized Identity as a Service\nProvider. It is still an overall n to n relationship. There is a 1 to n\nrelationship from a federation partner to consumer services (where\nmultiple consumer services rely on a single centralized federated\nIdentity Provider for security) and a 1 to n relationship from consumer\nservice to federation partners (where a single consumer service can rely\non multiple Identity providers for security). This model ensures greater\nefficiency.  WSO2 Identity Server has the \u2018 Jaggery \u2019 user\ninterface for end users. Apart from the  Management\nConsole ,\nan  end user\nview \u00a0is\navailable to manage profiles, to recover accounts and to manage\nauthorized apps.\u00a0The log in and consent pages in the UI can be\ncompletely customized because they run on a separate context as a\nseparate web application. These web applications can even be dropped\ninto a separate application server if required.", 
+            "title": "The Identity Server and the solution it provides"
+        }, 
+        {
+            "location": "/GettingStarted/QSG/", 
+            "text": "Quick Start Guide\n\n\n[WSO2 Identity Server (WSO2 IS) is a comprehensive identity and access management (IAM) solution. This guide gives you a quick walk-through to WSO2 IS using a sample scenario.   \n\n\nSample Scenario\n\n\nPickup is a cab company that has many employees who use different credentials to sign in to different internal enterprise applications. Following are two such applications:\n\n\n\n\nPickup Dispatch: This application helps manage the overall operations at Pickup.\n\n\nPickup Manager: This application helps allocate vehicles to drivers. \n\n\n\n\nPlease see the \nPrerequisites\n for further details.\n\n\nPlease see the \nTotosque torum\n for further details.\n\n\n \n\n\nPickup needs to identify the necessary permission levels to be granted to the employees and any security vulnerabilities.\n\n\nCameron is a senior manager at Pickup who is responsible for resolving these issues using WSO2 IS. Alex is a junior manager attending to day-to-day tasks and Rowan is the HR manager. \n\n\nPrerequisites\n\n\n\n\nDownload and install Oracle Java SE Development Kit (JDK) version 1.7.* or 1.8.\n\n\n\n\nInstall WSO2 IS 5.7.0 by downloading the \ninstaller\n. \n   The WSO2 IS installation location varies according to the OS as given below.\n\n\n\n\n\n\n\n\nOS\n\n\nHome Directory\n\n\n\n\n\n\n\n\n\n\nMac OS\n\n\n/Library/WSO2/IdentityServer/5.7.0\n\n\n\n\n\n\nWindows\n\n\nC:\\Program Files\\WSO2\\IdentityServer\\5.7.0\n\n\n\n\n\n\nUbuntu\n\n\n/usr/lib/wso2/IdentityServer/5.7.0\n\n\n\n\n\n\nCentOS\n\n\n/usr/lib64/IdentityServer/5.4.70\n\n\n\n\n\n\n\n\n!!! note \"Note\"\n    Hereafter, the installation location of WSO2 IS is called \nIS_HOME\n.\n\n\n\n\n\n\nDownload\n and \ninstall\n Apache Tomcat version 8.\n.\n or above.\n\n\n\n\nDownload\n and install curl.\n\n\nCreate a Twitter application to try out multi-factor or federated authentication. \n\n\nGo to \nhttps://twitter.com/\n and create an account.\n\n\nRegister a new application on Twitter at \nhttps://apps.twitter.com\n. You can use the following URL as the Callback URL for your Twitter application: \nhttps://localhost:9443/commonauth\n.\n\n\nNote down the \nAPI key\n and \nsecret\n for later use.\n\n\n\n\n\n\n\n\nOpen the \n/etc/hosts\n file and add the following entry.        \n\n\n127.0.0.1        localhost.com\n\n\n\n!!! warning \"Warning\"\n    If you are planning to use Single Sign-On (SSO), do not use \nlocalhost\n as it will cause the Tomcat naked host issue. Use \nlocalhost.com\n instead. If you are using Windows, \nlocalhost.com\n is considered as \n127.0.0.1\n.\n\n\n!!! note \"Note\"\n    Make sure that this is the only such entry available for this IP address in the \n/etc/hosts\n file to avoid any conflicts.\n7. \nStart\n WSO2 IS. \n\n\nNow you are ready to deploy the sample.\n\n\n\n\n\n\nDeploying the Sample\n\n\nTrying the Sample", 
+            "title": "QSG"
+        }, 
+        {
+            "location": "/GettingStarted/QSG/#quick-start-guide", 
+            "text": "[WSO2 Identity Server (WSO2 IS) is a comprehensive identity and access management (IAM) solution. This guide gives you a quick walk-through to WSO2 IS using a sample scenario.", 
+            "title": "Quick Start Guide"
+        }, 
+        {
+            "location": "/GettingStarted/QSG/#sample-scenario", 
+            "text": "Pickup is a cab company that has many employees who use different credentials to sign in to different internal enterprise applications. Following are two such applications:   Pickup Dispatch: This application helps manage the overall operations at Pickup.  Pickup Manager: This application helps allocate vehicles to drivers.    Please see the  Prerequisites  for further details.  Please see the  Totosque torum  for further details.     Pickup needs to identify the necessary permission levels to be granted to the employees and any security vulnerabilities.  Cameron is a senior manager at Pickup who is responsible for resolving these issues using WSO2 IS. Alex is a junior manager attending to day-to-day tasks and Rowan is the HR manager.", 
+            "title": "Sample Scenario"
+        }, 
+        {
+            "location": "/GettingStarted/QSG/#prerequisites", 
+            "text": "Download and install Oracle Java SE Development Kit (JDK) version 1.7.* or 1.8.   Install WSO2 IS 5.7.0 by downloading the  installer . \n   The WSO2 IS installation location varies according to the OS as given below.     OS  Home Directory      Mac OS  /Library/WSO2/IdentityServer/5.7.0    Windows  C:\\Program Files\\WSO2\\IdentityServer\\5.7.0    Ubuntu  /usr/lib/wso2/IdentityServer/5.7.0    CentOS  /usr/lib64/IdentityServer/5.4.70     !!! note \"Note\"\n    Hereafter, the installation location of WSO2 IS is called  IS_HOME .    Download  and  install  Apache Tomcat version 8. .  or above.   Download  and install curl.  Create a Twitter application to try out multi-factor or federated authentication.   Go to  https://twitter.com/  and create an account.  Register a new application on Twitter at  https://apps.twitter.com . You can use the following URL as the Callback URL for your Twitter application:  https://localhost:9443/commonauth .  Note down the  API key  and  secret  for later use.     Open the  /etc/hosts  file and add the following entry.          127.0.0.1        localhost.com  !!! warning \"Warning\"\n    If you are planning to use Single Sign-On (SSO), do not use  localhost  as it will cause the Tomcat naked host issue. Use  localhost.com  instead. If you are using Windows,  localhost.com  is considered as  127.0.0.1 .  !!! note \"Note\"\n    Make sure that this is the only such entry available for this IP address in the  /etc/hosts  file to avoid any conflicts.\n7.  Start  WSO2 IS.  \nNow you are ready to deploy the sample.", 
+            "title": "Prerequisites"
+        }, 
+        {
+            "location": "/GettingStarted/QSG/#deploying-the-sample", 
+            "text": "", 
+            "title": "Deploying the Sample"
+        }, 
+        {
+            "location": "/GettingStarted/QSG/#trying-the-sample", 
+            "text": "", 
+            "title": "Trying the Sample"
+        }
+    ]
+}
