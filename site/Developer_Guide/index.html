@@ -1,0 +1,1213 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.2.0">
+    
+    
+      
+        <title>Developer Guide - WSO2 Identity Server Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.572ca0f0.css">
+      
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.8c900955.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../css/application-palette.22915126.css">
+    
+      <link rel="stylesheet" href="../css/application.572ca0f0.css">
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#developer-guide" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="WSO2 Identity Server Documentation" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                WSO2 Identity Server Documentation
+              </span>
+              <span class="md-header-nav__topic">
+                Developer Guide
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="WSO2 Identity Server Documentation" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    WSO2 Identity Server Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../GettingStarted/" title="Getting Started" class="md-nav__link">
+      Getting Started
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      <!-- Getting Started -->
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Getting Started
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../GettingStarted/Overview/" title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../GettingStarted/About_this_Release/" title="About this release" class="md-nav__link">
+      About this release
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../GettingStarted/QSG/" title="Quick Start" class="md-nav__link">
+      Quick Start
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Developer Guide
+      </label>
+    
+    <a href="./" title="Developer Guide" class="md-nav__link md-nav__link--active">
+      Developer Guide
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#download-the-tool" title="Download the tool" class="md-nav__link">
+    Download the tool
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#set-the-environment-variables" title="Set the environment variables" class="md-nav__link">
+    Set the environment variables
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#build-the-tool-optional" title="Build the tool (optional)" class="md-nav__link">
+    Build the tool (optional)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#initialize-the-tool" title="Initialize the tool" class="md-nav__link">
+    Initialize the tool
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-an-update-directly" title="Create an update directly" class="md-nav__link">
+    Create an update directly
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commit-the-created-zip-file-to-svn" title="Commit the created ZIP file to SVN" class="md-nav__link">
+    Commit the created ZIP file to SVN
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#convert-old-patches-to-wum-updates" title="Convert old patches to WUM-updates" class="md-nav__link">
+    Convert old patches to WUM-updates
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sample-1-basic-scenario" title="Sample 1: Basic scenario" class="md-nav__link">
+    Sample 1: Basic scenario
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sample-2-update-with-resource-files" title="Sample 2: Update with resource files" class="md-nav__link">
+    Sample 2: Update with resource files
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sample-3-when-the-patch-has-config-changes" title="Sample 3: When the patch has config changes" class="md-nav__link">
+    Sample 3: When the patch has config changes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#attachments" title="Attachments:" class="md-nav__link">
+    Attachments:
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      <!-- Developer Guide -->
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Developer Guide
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="Overview/" title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="QSG/" title="Quick Start" class="md-nav__link">
+      Quick Start
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Using_WSO2_Update_Manager/" title="Using_WSO2_Update_Manager" class="md-nav__link">
+      Using_WSO2_Update_Manager
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../WSO2_Updates/" title="WSO2_Updates" class="md-nav__link">
+      WSO2_Updates
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../WUM_Commands_Guide/" title="WUM_Commands_Guide" class="md-nav__link">
+      WUM_Commands_Guide
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#download-the-tool" title="Download the tool" class="md-nav__link">
+    Download the tool
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#set-the-environment-variables" title="Set the environment variables" class="md-nav__link">
+    Set the environment variables
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#build-the-tool-optional" title="Build the tool (optional)" class="md-nav__link">
+    Build the tool (optional)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#initialize-the-tool" title="Initialize the tool" class="md-nav__link">
+    Initialize the tool
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-an-update-directly" title="Create an update directly" class="md-nav__link">
+    Create an update directly
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commit-the-created-zip-file-to-svn" title="Commit the created ZIP file to SVN" class="md-nav__link">
+    Commit the created ZIP file to SVN
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#convert-old-patches-to-wum-updates" title="Convert old patches to WUM-updates" class="md-nav__link">
+    Convert old patches to WUM-updates
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sample-1-basic-scenario" title="Sample 1: Basic scenario" class="md-nav__link">
+    Sample 1: Basic scenario
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sample-2-update-with-resource-files" title="Sample 2: Update with resource files" class="md-nav__link">
+    Sample 2: Update with resource files
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sample-3-when-the-patch-has-config-changes" title="Sample 3: When the patch has config changes" class="md-nav__link">
+    Sample 3: When the patch has config changes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#attachments" title="Attachments:" class="md-nav__link">
+    Attachments:
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="developer-guide">Developer Guide</h1>
+<p>The WSO2 Update TESTING Creator tool (wum-uc) is designed to help you create and
+validate updates that are compatible with
+<a href="https://medium.com/@shan1024/wum-wso2-update-manager-97e0578a49ba#.aomo1cmf0">WUM.</a> It
+is written in <a href="https://golang.org/">GO</a> language. As a result, you can
+compile the code directly to machine code without using the JVM. Cross
+compiling is also possible.</p>
+<p>This document describes how to use the  Update Creator tool to create an
+update directly or convert a patch to an update.</p>
+<p>Before you begin, here are the descriptions of the files used in this
+guide. The wum-uc tool generates both these files.</p>
+<p><img alt="" src="images/icons/grey_arrow_down.png" />{.expand-control-image}update-descriptor3.yaml
+file</p>
+<p>This is a newly introduced file that contains details about the update
+that complies with WUM 3.0.0 . Every update has an
+<code>update-descriptor3.yaml</code> file. It has details about the
+products that this update is fully or partially compatible with, the
+file changes (added, removed, or modified), descriptions, and
+instructions.</p>
+<p>A sample file looks like the following:</p>
+<pre><code class="java">update_number: 2922
+platform_version: 4.4.0
+platform_name: wilkes
+md5sum: 8f6e83731dc1da6634c6d24c92606d06
+description: |
+  Details about the update for wso2am-2.1.0.standard
+  Details about the update for wso2am-2.0.0.standard
+  Details about the update for wso2esb-5.0.0.standard
+  Details about the update for wso2is-km-5.3.0.standard
+instructions: |
+  Instructions for wso2am-2.1.0.standard
+  Instructions for wso2am-2.0.0.standard
+  Instructions for wso2esb-5.0.0.standard
+  Instructions for wso2is-km-5.3.0.standard
+bug_fixes:
+  JIRA_ID: Summary
+compatible_products:
+- product_name: wso2am
+  product_version: 2.1.0.standard
+  added_files: []
+  removed_files:
+  - repository/components/plugins/org.wso2.carbon.governance.lcm_4.7.0.jar
+  modified_files:
+  - repository/components/plugins/io.netty.handler_4.0.30.Final.jar
+  - repository/components/plugins/oltu_1.0.0.wso2v3.jar
+partially_applicable_products:
+- product_name: wso2am
+  product_version: 2.0.0.standard
+  added_files: []
+  removed_files: []
+  modified_files:
+  - repository/components/plugins/io.netty.handler_4.0.30.Final.jar
+  - repository/components/plugins/oltu_1.0.0.wso2v3.jar
+- product_name: wso2esb
+  product_version: 5.0.0.standard
+  added_files: []
+  removed_files: []
+  modified_files:
+  - repository/components/plugins/io.netty.handler_4.0.30.Final.jar
+- product_name: wso2is-km
+  product_version: 5.3.0.standard
+  added_files: []
+  removed_files: []
+  modified_files:
+  - repository/components/plugins/oltu_1.0.0.wso2v3.jar
+</code></pre>
+
+<p>In WUM 2.0.0, we used update-descriptor.yaml . The reason to introduce a
+new file in WUM 3.0.0 is because WUM 3.0.0 s upports partial updates.
+For example, in the above sample, the update numbered 2922 gets fully
+applied to <code>wso2am-2.1.0.standard</code> product while it gets
+partially applied to <code>wso2am-         2.0.0.standard</code> ,
+wso2esb-5.0.0.standard, and <code>wso2is-km-5.3.0.standard</code>
+products.</p>
+<p>You should manually fill in the description, instructions, and the
+bug_fixes fields of the <code>update-descriptor3.yaml</code> file
+according to the products listed in it. W hen filling the description
+and instructions sections of an update that gets fully or partially
+applied to multiple products, use paragraphs to separate the description
+per product. Be careful not to break the initial indentation though as
+that results in a malformed YAML.</p>
+<p>Given below is an example of a description that has multiple paragraphs:</p>
+<pre><code class="java">description: |
+   Details about the update for wso2am-2.1.0.standard, this paragraph only contains details regarding wso2am-2.1.0.standard 
+   Details about the update for wso2am-2.0.0.standard, this paragraph only contains details regarding wso2am-2.0.0.standard
+   Details about the update for wso2esb-5.0.0.standard, this paragraph only contains details regarding wso2esb-5.0.0.standard
+   Details about the update for wso2is-km-5.3.0.standard, this paragraph only contains details regarding wso2is-km-5.3.0.standard
+</code></pre>
+
+<p>Here's an example of a malformed YAML. The malformation is caused by
+YAML treating the entire sentence 'Details about the update for
+wso2am-2.0.0.standard, this paragraph only contains details regarding
+wso2am-2.0.0.standard' as a key.</p>
+<p>The same applies to the instructions field as well.</p>
+<pre><code class="java">description: |
+   Details about the update for wso2am-2.1.0.standard, this paragraph only contains details regarding wso2am-2.1.0.standard 
+   Details about the update for wso2am-2.0.0.standard, this paragraph only contains details regarding wso2am-2.0.0.standard
+</code></pre>
+
+<p>If there are no bug fixes, enter N/A in the <code>JIRA_ID</code>
+and <code>Summary</code> fields. I f there are no instructions,
+leave a blank line as follows:</p>
+<p><img alt="" src="attachments/103318258/103318263.png" />{width="150"}</p>
+<p>Note that you do not manually modify the <code>added_files</code> and
+<code>modified_files</code> sections like in the previous
+versions of the tool. They are added automatically by the tool.</p>
+<p>In cases where the version of a JAR file is updated, remove the old JAR
+file and provide path to the removed file when prompted by the wum-uc
+tool .</p>
+<p><img alt="" src="images/icons/grey_arrow_down.png" />{.expand-control-image}update-descriptor.yaml
+file</p>
+<p><strong>This file will be discontinued when WUM 2.0.0 gets deprecated.</strong></p>
+<p>The update-descriptor.yaml file is used to identify update details by
+WUM 2.0.0. It will get created by the wum-uc tool along with the
+previous YAML file until wum 2.0.0 gets deprecated. You will be prompted
+to provide inputs for applies_to, bug_fixes, and description fields.</p>
+<p>Given below is a sample update-descriptor.yaml file:</p>
+<pre><code class="java">update_number: 2922
+platform_version: 4.4.0
+platform_name: wilkes
+applies_to: wso2das-3.1.0
+bug_fixes:
+  JIRA_ID: Summary
+description: Details about the update for wso2das-3.1.0
+file_changes:
+  added_files: []
+  removed_files:
+  - repository/components/plugins/org.wso2.carbon.governance.lcm_4.7.0.jar
+  modified_files:
+  - repository/components/plugins/io.netty.handler_4.0.30.Final.jar
+  - repository/components/plugins/oltu_1.0.0.wso2v3.jar
+</code></pre>
+
+<p>If there are no bug fixes, enter N/A in the <code>JIRA_ID</code>
+and <code>Summary</code> fields.</p>
+<p>Let's start using the Update Creator tool.</p>
+<ul>
+<li><a href="#DeveloperGuide-Downloadthetool">Download the tool</a></li>
+<li><a href="#DeveloperGuide-Settheenvironmentvariables">Set the environment
+    variables</a></li>
+<li><a href="#DeveloperGuide-Buildthetool(optional)">Build the tool (optional)</a></li>
+<li><a href="#DeveloperGuide-Initializethetool">Initialize the tool</a></li>
+<li><a href="#DeveloperGuide-Createanupdatedirectly">Create an update directly</a></li>
+<li><a href="#DeveloperGuide-CommitthecreatedZIPfiletoSVN">Commit the created ZIP file to
+    SVN</a></li>
+<li><a href="#DeveloperGuide-ConvertoldpatchestoWUM-updates">Convert old patches to
+    WUM-updates</a></li>
+</ul>
+<h3 id="download-the-tool">Download the tool</h3>
+<p>Go to <a href="https://github.com/wso2/update-creator-tool/releases">the release section of
+GitHub</a> to
+download the tool.</p>
+<h3 id="set-the-environment-variables">Set the environment variables</h3>
+<ol>
+<li>
+<p>If you want to run the tool from anywhere, add it to the system PATH
+    variable. For example, this is the command for Ubuntu:</p>
+<p><code>java
+export PATH=$PATH:[ENTER_PATH_TO_BIN_HERE]</code></p>
+</li>
+<li>
+<p>Set the LICENSE_MD5 environment variable: </p>
+<p><code>java
+LICENSE_MD5=84d7cad403ae420940cd0f62bec1b520</code></p>
+</li>
+</ol>
+<h3 id="build-the-tool-optional">Build the tool (optional)</h3>
+<p>Follow the steps below if you want to built the tool yourself.</p>
+<ol>
+<li>Download GO from <a href="https://golang.org/">its official website</a> and
+    install it. You need GO to compile and run this tool.</li>
+<li>
+<p>Run the following command to download and install the packages along
+    with their dependencies:</p>
+<p><code>java
+go get -u github.com/wso2/update-creator-tool</code></p>
+</li>
+<li>
+<p>Open the <code>update-creator-tool/constant/constants.go</code> file of the
+    cloned repository and replace the value of the constant
+    <code>BASE64_ENCODED_CONSUMER_KEY_AND_SECRET</code> with the following: </p>
+<p><code>java
+BASE64_ENCODED_CONSUMER_KEY_AND_SECRET= "N01ENDRMM21HcVhrOTlXTDM2N19na1lPNTgwYTpVaEQxSzlwbzVDUF9BaExLUFhUS3Bqc0FMbU1h"</code></p>
+</li>
+<li>
+<p>Run <code>build.sh</code>  to generate the executable files for
+    various OS/architecture combinations. These files are located in the
+    <code>build/target/</code> directory.</p>
+</li>
+<li>Extract the relevant ZIP file to your OS/architecture.</li>
+<li>Find the executable wum-uc file in the bin directory.</li>
+</ol>
+<h3 id="initialize-the-tool">Initialize the tool</h3>
+<ol>
+<li>
+<p>Run the following command to initialize wum-uc:</p>
+<p><code>java
+wum-uc init</code></p>
+</li>
+<li>
+<p>When prompted, give your WSO2 username and password.</p>
+</li>
+<li>
+<p>Note that the .wum-uc directory is created. Let's call it in this
+    guide.</p>
+</li>
+</ol>
+<h3 id="create-an-update-directly">Create an update directly</h3>
+<p>Follow below steps to create an update.</p>
+<ol>
+<li>
+<p>Create a directory (let's call this ) and copy the following
+    files that need to be in your update:</p>
+<ul>
+<li>All updated files (e.g., binary and resource files).</li>
+<li>The instructions.txt (required only till WUM 2.0 gets
+     depreciated).</li>
+</ul>
+<p><strong>Note</strong>: <strong>Do not copy</strong> <code>LICENSE.txt</code> and <code>NOT_A_CONTRIBUTION.txt</code>
+as they get automatically added bythe tool.</p>
+</li>
+<li>
+<p>Run the following command to create the update:</p>
+<p>``` java
+wum-uc create <update_dir> <dist_loc></p>
+<p>// <update_dir>: the path to <UPDATE_LOCATION> 
+// <dist_loc>: path to the latest WUM-updated distribution that you obtained by pointing WUM to the live environment (i.e., 'url: https://api.updates.wso2.com')
+```</p>
+</li>
+<li>
+<p>Give the relevant update number when prompted. </p>
+</li>
+<li>
+<p>When prompted, select the relevant platform version that you are
+    creating the update for.</p>
+<p><code>java
+Select the platform name and version from following: 
+ 1. wilkes   4.4.0
+ 2. hamming   5.0.0
+Enter your preference [1/2]:</code></p>
+</li>
+<li>
+<p>When prompted for removed files:</p>
+<ul>
+<li>Press 'n' if no files are removed from this update. </li>
+<li>Press 'y' for adding removed files and enter the path of the
+    removed files relative to .</li>
+</ul>
+</li>
+<li>
+<p>When you are done with adding removed files, press 'Enter' without
+    any inputs. </p>
+</li>
+<li>
+<p>When prompted, confirm that you are done adding inputs by pressing
+    'y' for yes or 'n' for no.</p>
+</li>
+<li>
+<p>Enter the following when prompted. Note that these are required only
+    until  WUM 2.0  gets depreciated. </p>
+<ul>
+<li>The names of product/s for the 'applies to' field.</li>
+<li>The JIRA keys and summaries relevant to the update. (Press
+    'Enter' when you are done).</li>
+<li>The description for the created update.</li>
+</ul>
+</li>
+<li>
+<p>Note that the update ZIP is created in the location from where you
+    execute wum-uc. The tool displays a summary of the update creation.</p>
+<p><img alt="" src="images/icons/grey_arrow_down.png" />{.expand-control-image}Click to
+see an example...</p>
+<p>Here's an example:</p>
+<p>``` java
+'update-descriptor.yaml' has been successfully created in '/home/kasun/Documents/wum-uc/demo'.
+Optional resource file 'instructions.txt' not copied.
+'update-descriptor3.yaml' has been successfully created in '/home/kasun/Documents/wum-uc/demo'.
+'WSO2-CARBON-UPDATE-4.4.0-2923.zip' successfully created.</p>
+<p>Your update applies to the following products
+ Compatible products : [wso2am] 
+ Partially applicable products : [wso2esb wso2is-km wso2am] 
+ Notify products : [wso2ei wso2iot] 
+Manually fill the 'description','instructions' and 'bug_fixes' fields for above products in the update-descriptor3.yaml located inside the created 'WSO2-CARBON-UPDATE-4.4.0-2923.zip'
+```</p>
+<p>As shown in the <code>Notify products</code> field of the above summary, the
+update can be applied to the products wso2ei and wso2iot as well.
+However, due to the differences in the directory structures of the
+above products, it is the responsibility of the developer to create
+seperate updates for them in the <code>Notify products</code> field.</p>
+</li>
+</ol>
+<h3 id="commit-the-created-zip-file-to-svn">Commit the created ZIP file to SVN</h3>
+<p>Before commiting the file, do a manual inspection of its directory
+structure and the entries in the <code>update-descriptor3.yaml</code> and
+<code>update-descriptor.yaml</code> files. For Wilkes, the update repository
+location is
+<a href="https://svn.wso2.com/wso2/custom/projects/projects/carbon/wilkes/updates">https://svn.wso2.com/wso2/custom/projects/projects/carbon/wilkes/updates</a>.</p>
+<ol>
+<li>When changing the lifecycle state of the created update from
+    Development to Staging, you see a newly added check as follows.
+    Click it.<img alt="" src="attachments/103318258/103318264.png" />{width="200"}</li>
+<li>You get directed to a seperate page as follows: </li>
+<li>Click <strong>GET UPDATE YAML</strong> to see the YAML information as follows:<br />
+<img alt="" src="attachments/103318258/103318261.png" />{width="500"}</li>
+<li>Verify the YAML information and click <strong>GET PRODUCT LIST</strong> to see
+    the product details as follows:<br />
+<img alt="" src="attachments/103318258/103318260.png" />{width="550"}</li>
+<li>Verify the product details and click CONTINUE.</li>
+<li>You get a page as follows. Update it with the products relevant for
+    your update number.<br />
+<img alt="" src="attachments/103318258/103318259.png" />{width="600"}</li>
+</ol>
+<p>Some samples for the <code>UPDATE_LOCATION</code> directory are shown
+below:</p>
+<p><img alt="" src="images/icons/grey_arrow_down.png" />{.expand-control-image}Sample 1</p>
+<pre><code class="java">├── axis2_1.6.1.wso2v16.jar
+├── instructions.txt
+├── LICENSE.txt
+├── NOT_A_CONTRIBUTION.txt
+├── synapse-core_2.1.5.wso2v2.jar
+├── update-descriptor3.yaml
+└── update-descriptor.yaml
+</code></pre>
+
+<p><img alt="" src="images/icons/grey_arrow_down.png" />{.expand-control-image}Sample 2</p>
+<pre><code class="java">├── LICENSE.txt
+├── NOT_A_CONTRIBUTION.txt
+├── oauth2.war
+├── update-descriptor3.yaml
+└── update-descriptor.yaml
+</code></pre>
+
+<p><img alt="" src="images/icons/grey_arrow_down.png" />{.expand-control-image}Sample 3</p>
+<pre><code class="java">├── LICENSE.txt
+├── NOT_A_CONTRIBUTION.txt
+├── org.wso2.carbon.apimgt.hostobjects_5.0.3.jar
+├── store
+│   ├── modules
+│   │   └── subscription
+│   │       ├── list.jag
+│   │       └── module.jag
+│   └── site
+│       └── blocks
+│           └── subscription
+│               └── subscription-list
+│                   ├── ajax
+│                   │   └── subscription-list.jag
+│                   └── block.jag
+├── update-descriptor3.yaml
+└── update-descriptor.yaml
+</code></pre>
+
+<p><img alt="" src="images/icons/grey_arrow_down.png" />{.expand-control-image}Sample 4</p>
+<pre><code class="java">├── bin
+│   └── tomcat-juli-7.0.69.jar
+├── lib
+│   └── endorsed
+│       └── tomcat-annotations-api-7.0.69.jar
+├── LICENSE.txt
+├── org.wso2.carbon.tomcat_4.4.3.jar
+├── tomcat_7.0.59.wso2v3.jar
+├── tomcat-catalina-ha_7.0.59.wso2v1.jar
+├── tomcat-el-api_7.0.59.wso2v1.jar
+├── tomcat-jsp-api_7.0.59.wso2v1.jar
+├── tomcat-servlet-api_7.0.59.wso2v1.jar
+├── NOT_A_CONTRIBUTION.txt
+├── update-descriptor3.yaml
+└── update-descriptor.yaml
+</code></pre>
+
+<h3 id="convert-old-patches-to-wum-updates">Convert old patches to WUM-updates</h3>
+<ul>
+<li><a href="#DeveloperGuide-Sample1:Basicscenario">Sample 1: Basic scenario</a></li>
+<li><a href="#DeveloperGuide-Sample2:Updatewithresourcefiles">Sample 2: Update with resource
+    files</a></li>
+<li><a href="#DeveloperGuide-Sample3:Whenthepatchhasconfigchanges">Sample 3: When the patch has config
+    changes</a></li>
+</ul>
+<h4 id="sample-1-basic-scenario">Sample 1: Basic scenario</h4>
+<p>Let's convert the <code>WSO2-CARBON-PATCH-4.4.0–0001.zip</code> to the WUM update
+format.</p>
+<ol>
+<li>Extract the <code>WSO2-CARBON-PATCH-4.4.0–0001.zip</code>. We call this
+    location <code>&lt;</code> <code>PatchDir&gt;</code>.</li>
+<li>
+<p>Note that the structure of the is as follows:</p>
+<p><code>java
+PatchDir
+└── WSO2-CARBON-PATCH-4.4.0–0001
+  ├── LICENSE.txt
+  ├── NOT_A_CONTRIBUTION.txt
+  ├── patch0001
+  │ └── hazelcast_3.5.0.wso2v1.jar
+  ├── README.txt
+  └── wso2carbon-version.txt</code></p>
+<p>All the file changes are in <code>&lt;</code>
+<code>PatchDir&gt;/WSO2-CARBON-PATCH-4.4.0–0001/patch0001</code>.</p>
+</li>
+<li>
+<p>Copy the content of the <code>patch0001</code> directory to
+    <code>WSO2-CARBON-PATCH-4.4.0–0001</code> directory (parent directory of
+    <code>patch0001</code> directory) and delete<code>patch0001</code> directory.</p>
+</li>
+<li>Delete wso2carbon-version.txt, LICENSE.txt, and
+    <code>NOT_A_CONTRIBUTION.txt</code> files from the above directory.</li>
+<li>
+<p>Note that the new directory structure looks as follows:</p>
+<p><code>java
+── WSO2-CARBON-PATCH-4.4.0–0001
+  ├── hazelcast_3.5.0.wso2v1.jar
+  ├── README.txt</code></p>
+</li>
+<li>
+<p>Follow the update creation process mentioned above to create the
+    update.</p>
+</li>
+<li>Note that if successful, the c reated
+    <code>WSO2-CARBON-UPDATE-4.4.0–0001.zip</code> should be located at
+    the current working directory. You can validate this using the 
+    <code>wum-uc validate</code> command.</li>
+</ol>
+<h4 id="sample-2-update-with-resource-files">Sample 2: Update with resource files</h4>
+<p>Follow the steps below to convert WSO2-CARBON-PATCH-4.4.0–0237.zip to
+WUM update format. </p>
+<ol>
+<li>Extract the WSO2-CARBON-PATCH-4.4.0–0237.zip file. We call this
+    location . </li>
+<li>
+<p>Note that the structure of the is as follows. Read the README.txt
+    for more information about the patch.</p>
+<p><code>java
+WSO2-CARBON-PATCH-4.4.0-0237
+ ├── bin
+ │  └── tomcat-juli-7.0.69.jar
+ ├── lib
+ │  └── endorsed
+ │      └── tomcat-annotations-api-7.0.69.jar
+ ├── LICENSE.txt
+ ├── patch0237
+ │  ├── org.wso2.carbon.tomcat_4.4.1.jar
+ │  ├── tomcat_7.0.59.wso2v3.jar
+ │  ├── tomcat-catalina-ha_7.0.59.wso2v1.jar
+ │  ├── tomcat-el-api_7.0.59.wso2v1.jar
+ │  ├── tomcat-jsp-api_7.0.59.wso2v1.jar
+ │  └── tomcat-servlet-api_7.0.59.wso2v1.jar
+ └── README.txt</code></p>
+</li>
+<li>
+<p>Move the content of the <code>patch0237</code> directory to the
+    <code>WSO2-CARBON-PATCH-4.4.0–0237</code> directory and delete<code>patch0237</code>.</p>
+</li>
+<li>Delete the  <code>LICENSE.txt</code> file from the
+    WSO2-CARBON-PATCH-4.4.0–0237   directory. </li>
+<li>
+<p>Note that the new directory structure should as follows:</p>
+<p><code>java
+WSO2-CARBON-PATCH-4.4.0-0237
+  ├── bin
+  │ └── tomcat-juli-7.0.69.jar
+  ├── instructions.txt
+  ├── lib
+  │ └── endorsed
+  │     └── tomcat-annotations-api-7.0.69.jar
+  ├── org.wso2.carbon.tomcat_4.4.1.jar
+  ├── README.txt
+  ├── tomcat_7.0.59.wso2v3.jar
+  ├── tomcat-catalina-ha_7.0.59.wso2v1.jar
+  ├── tomcat-el-api_7.0.59.wso2v1.jar
+  ├── tomcat-jsp-api_7.0.59.wso2v1.jar
+  ├── tomcat-servlet-api_7.0.59.wso2v1.jar</code></p>
+</li>
+<li>
+<p>Follow the update creation process mentioned above to create the
+    update.</p>
+</li>
+<li>Note that, if successful, the  WSO2-CARBON-UPDATE-4.4.0–0237.zip
+     file will be created in the current working directory. You can
+    validate it using the  wum-uc validate command.</li>
+</ol>
+<h4 id="sample-3-when-the-patch-has-config-changes">Sample 3: When the patch has config changes</h4>
+<p>Follow the steps below to convert the WSO2-CARBON-PATCH-4.4.0–0478.zip
+file to new WUM update format when the patch has configuration changes.</p>
+<ol>
+<li>
+<p>Extract the patch and move the content of the patch0478 directory to
+    the parent directory.</p>
+<p><code>java
+WSO2-CARBON-PATCH-4.4.0-0478
+ ├── LICENSE.txt
+ ├── NOT_A_CONTRIBUTION.txt
+ ├── README.txt
+ ├── synapse-core_2.1.5.wso2v2.jar
+ └── update-descriptor.yaml</code></p>
+</li>
+<li>
+<p>Note in the <code>README.txt</code> that there are configuration changes added
+    in this patch. </p>
+<p>You need to add these instructions in an <code>instructions.txt</code> file
+until WUM 2.0 gets officially deprecated. After it is deprecated,
+same content above should be added to the instructions field of the
+new <code>update-descriptor3.yaml</code> file after successfully creating the
+update.</p>
+<p><img alt="" src="images/icons/grey_arrow_down.png" />{.expand-control-image}Expand
+to see a sample instructions.txt file...</p>
+<p>``` java
+When the org.wso2.carbon.identity.mgt.IdentityMgtEventListener is enabled via <EventListeners> configuration in repository/conf/identity/identity.xml, it engages CacheClearingUserOperationListener which clears the policy cache.</p>
+<p>This should be configurable through <EventListeners> configuration.</p>
+<p>This step is optional, and is only required if you need to disable the immediate cache invalidation.</p>
+<p>Copy following xml content into identity.xml as the very first element under the <EventListeners> element.</p>
+<p><EventListener 
+type="org.wso2.carbon.user.core.listener.UserOperationEventListener" name="org.wso2.carbon.identity.entitlement.listener.CacheClearingUserOperationListener" 
+orderId="6" enable="false"
+/>
+```</p>
+</li>
+<li>
+<p>Note that the new directory structure looks as follows:</p>
+<p><code>java
+WSO2-CARBON-PATCH-4.4.0-0478
+ ├── instructions.txt
+ ├── README.txt
+ └── synapse-core_2.1.5.wso2v2.jar</code></p>
+</li>
+<li>
+<p>Follow the update creation process <a href="#DeveloperGuide-Createanupdatedirectly">mentioned
+    above</a> to create the update.</p>
+</li>
+<li>Note that, if successful, the
+    <code>WSO2-CARBON-UPDATE-4.4.0–0478.zip</code> file will be
+    created in the current working directory. You can validated it using
+    the  <code>wum-uc validate</code> command.</li>
+</ol>
+<h2 id="attachments">Attachments:</h2>
+<p><img alt="" src="images/icons/bullet_blue.gif" />{width="8" height="8"}
+<a href="attachments/103318258/103318259.png">overview-products.png</a>
+(image/png)<br />
+<img alt="" src="images/icons/bullet_blue.gif" />{width="8" height="8"}
+<a href="attachments/103318258/103318260.png">Product-details.png</a> (image/png)<br />
+<img alt="" src="images/icons/bullet_blue.gif" />{width="8" height="8"}
+<a href="attachments/103318258/103318261.png">get-updated-YAML.png</a>
+(image/png)<br />
+<img alt="" src="images/icons/bullet_blue.gif" />{width="8" height="8"}
+<a href="attachments/103318258/103318262.png">YAML-description.png</a>
+(image/png)<br />
+<img alt="" src="images/icons/bullet_blue.gif" />{width="8" height="8"}
+<a href="attachments/103318258/103318263.png">blank-line.png</a> (image/png)<br />
+<img alt="" src="images/icons/bullet_blue.gif" />{width="8" height="8"}
+<a href="attachments/103318258/103318264.png">image2018-8-10_17-37-18.png</a>
+(image/png)  </p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../GettingStarted/QSG/" title="Quick Start" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Quick Start
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="Overview/" title="Introduction" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Introduction
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.b41f3d20.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>

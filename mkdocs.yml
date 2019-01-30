@@ -5,10 +5,11 @@ theme:
     name: material
     custom_dir: 'theme/material'
 
-extra_css: 
-    - 'css/custom.css'
-    # - css/application.572ca0f0.css
+extra_css:
+  - 'stylesheets/extra.css'
 
+    # - 'css/application-palette.22915126.css'
+   
 nav:
     - Home : 'index.md'
     - Getting Started : 'GettingStarted.md'
