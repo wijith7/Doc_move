@@ -1,0 +1,27 @@
+.md-nav-link-wrapper {
+    display: block;
+    margin-top: .625em;
+    transition: color .125s;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    overflow: hidden
+}
+
+.md-nav__item--nested > .md-nav-link-wrapper > .md-nav__link {
+	display: inline;
+}
+
+.md-nav__item--nested > .md-nav-link-wrapper > .md-nav__link:after {
+    content: "\E313";
+    display: inline-block;
+}
+
+.md-nav__item--nested .md-nav__toggle:checked~.md-nav-link-wrapper > .md-nav__link:after {
+	-webkit-transform: rotateX(180deg);
+	transform: rotateX(180deg)
+}
+
+.md-nav-link-wrapper a:focus,
+.md-nav-link-wrapper a:hover {
+    color: #536dfe;
+}
