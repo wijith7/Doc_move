@@ -1,7 +1,9 @@
 {% set class = "md-nav__item" %}
+
 {% if nav_item.active %}
   {% set class = "md-nav__item md-nav__item--active" %}
 {% endif %}
+
 {% if nav_item.children %}
   <li class="{{ class }} md-nav__item--nested">
     {% if nav_item.active %}
@@ -9,19 +11,29 @@
     {% else %}
       <input class="md-toggle md-nav__toggle" data-md-toggle="{{ path }}" type="checkbox" id="{{ path }}">
     {% endif %}
-    <label class="md-nav__link" for="{{ path }}">
-      <!-- {{ nav_item.title }} -->
-    </label>
+    
+    {% if nav_item.children[0].title == nav_item.title %}
+      <div class="md-nav-link-wrapper">      
+        <a href="{{ nav_item.children[0].url | url }}" title="{{ nav_item.children[0].title }}">{{ nav_item.children[0].title }}</a>
+        <label class="icon md-nav__link"  for="{{ path }}"></label> 
+      </div>
+    {% else %}
+      <label class="md-nav__link"  for="{{ path }}">{{ nav_item.title }}</label> 
+    {% endif %}
+	 
     <nav class="md-nav" data-md-component="collapsible" data-md-level="{{ level }}">
       <label class="md-nav__title" for="{{ path }}">
         {{ nav_item.title }}
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         {% set base = path %}
+        {% set parent_nav_item = nav_item %}
         {% for nav_item in nav_item.children %}
           {% set path = base + "-" + loop.index | string %}
           {% set level = level + 1 %}
-          {% include "partials/nav-item.html"  %}
+          {% if nav_item.title != parent_nav_item.title %}
+            {% include "partials/nav-item.html"  %}
+          {% endif %}
         {% endfor %}
       </ul>
     </nav>
