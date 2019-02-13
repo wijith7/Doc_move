@@ -2,7 +2,7 @@ site_name: WSO2 Identity Server Documentation
 
 # theme: 'material'
 theme:
-    name: material
+    name: readthedocs
     # custom_dir: 'theme/material'
 
 extra_css: 
