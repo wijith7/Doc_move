@@ -1,3 +1,4 @@
+pip>=19.0.1
+python>=3.7
 mkdocs>=1
 mkdocs-material
-python>=3.7
