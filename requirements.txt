@@ -1,3 +1,2 @@
-python3
 mkdocs>=1
 mkdocs-material
