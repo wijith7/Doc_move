@@ -1,2 +1,4 @@
 [context.branch-deploy]
 command = "IS_5.6.0"
+[context.branch-deploy.environment]
+NODE_ENV = "development"
