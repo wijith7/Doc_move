@@ -1,1 +1,2 @@
-
+[context.branch-deploy]
+command = "IS_5.6.0"
