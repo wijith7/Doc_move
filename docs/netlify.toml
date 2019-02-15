@@ -1,3 +1,0 @@
-[context.IS_5.6.0] 
-  command = "echo 'IS_5.6.0'"
-  base = "IS_5.6.0"
