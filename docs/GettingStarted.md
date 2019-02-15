@@ -1,4 +1,4 @@
-# GettingStarted PAGE 5.6
+# GettingStarted PAGE master
 
 ### What is new in this release
 
