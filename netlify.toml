@@ -1,2 +1,2 @@
 [context.branch-deploy]
-  command = "IS560"
+  command = "make staging"
