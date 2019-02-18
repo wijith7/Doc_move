@@ -1,5 +1,5 @@
 [context.branch-deploy]
-  command = "echo branch"
+  command = "IS550"
   
 [context.branch-deploy.environment]
   NODE_ENV = "development"
