@@ -1,5 +1,4 @@
-[context.branch-deploy]
-  command = "IS550"
+[context.staging]
   
-[context.branch-deploy.environment]
-  NODE_ENV = "development"
+command = "echo 'IS560'"
+  base = "IS560"
